@@ -1,46 +1,88 @@
-## Cover letter
+<!--
 
-Describe in plain language the motivation (bug, feature, etc.) behind the change in this PR and how the included commits address it.
+See https://github.com/redpanda-data/redpanda/blob/dev/CONTRIBUTING.md##pull-request-description
+for more details and examples of what is expected in a PR description.
 
-<!-- Use the GitHub keyword `Fixes` to link to bug(s) this PR will fix. -->
+-->
+
+## Cover Letter
+
+<!--
+
+Content under this heading is REQUIRED.
+
+Describe, in plain language, the motivation behind the change (bug fix,
+feature, improvement) in this PR and how the included commits address it.
+
+Use the GitHub keyword `Fixes` to link to bug(s) this PR will fix, e.g.
+
 Fixes #ISSUE-NUMBER, Fixes #ISSUE-NUMBER, ...
+
+If this PR is a backport, link to the backport with `Backport from PR`,
+e.g.
+
+Backport from PR: #PR-NUMBER
+
+-->
 
 ## Backport Required
 
-<!-- Specify which branches this should be backported to, e.g.: -->
-- [ ] not a bug fix
-- [ ] issue does not exist in previous branches
-- [ ] papercut/not impactful enough to backport
+<!--
+
+Content under this heading is REQUIRED.
+
+If this PR needs backport, then list the supported branches to backport
+towards, e.g.
+
 - [ ] v22.2.x
 - [ ] v22.1.x
 - [ ] v21.11.x
 
-## UX changes
-
-Describe in plain language how this PR affects an end-user. What topic flags, configuration flags, command line flags, deprecation policies etc are added/changed.
-
-<!-- don't ship user breaking changes. Ping PMs for help with user visible changes  -->
-
-## Release notes
-<!--
-
-If this PR does not need to be included in the release notes, then
-simply have a bullet point for `none` directly under the `Release notes`
-section, e.g.
+If this PR does not need backport, then list `none`, e.g.
 
 * none
 
-Otherwise, add one or more of the following sections. A section must have
-at least 1 bullet point. You can add multiple sections with multiple
-bullet points if this PR represents multiple release note items. See
-the CONTRIBUTING.md guidelines for more details.
+-->
+
+## UX Changes
+
+<!--
+
+Content under this heading is OPTIONAL.
+
+Describe, in plain language, how this PR affects an end-user. Explain
+topic flags, configuration flags, command line flags, deprecation
+policies, etc. that are added or modified. Don't ship user breaking
+changes. Ask the @redpanda-data/product team if you need help with user
+visible changes.
+
+-->
+
+## Release Notes
+
+<!--
+
+Content under this heading is REQUIRED.
+
+If the changes in this PR do not need to be mentioned in the release
+notes, then list `none`, e.g.
+
+* none
+
+Otherwise, add one or more of the 3 `###` headings with a short
+description bullet point of the change, e.g.
+
+### Bug fixes
+
+* Short description of the bug fix if this is a PR to `dev` branch.
 
 ### Features
 
-* Short description of the feature. Explain how to configure the new feature if applicable.
+* Short description of the new feature. Explain how to configure the
+  feature if applicable.
 
 ### Improvements
 
-* Short description of how this PR improves redpanda.
+* Short description of how this PR improves existing behavior.
 
 -->
