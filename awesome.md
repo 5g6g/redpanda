@@ -22,7 +22,6 @@ Please bend a pull request with your project name and description.
 [Benthos](https://www.benthos.dev/blog/2021/03/09/redpanda/): We're bringing simple back (to streaming)
 
 [Timeplus](https://redpanda.com/blog/low-latency-streaming-analytics-timeplus-redpanda/): Realizing low latency streaming analytics with Timeplus and Redpanda
-
 [Ably](https://redpanda.com/blog/ably-redpanda-real-time-data-pipeline/): How to build a reliable and scalable real-time data pipeline with Ably and Redpanda
 
 ## Community articles 
