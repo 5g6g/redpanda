@@ -1,6 +1,6 @@
 # Awesome Redpanda 🤯 😎 🤯
 
-Please mend a pull request with your project name and description. 
+Please bend a pull request with your project name and description. 
 
 ## Partner blogs
 
