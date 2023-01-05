@@ -6,7 +6,6 @@ Please bend a pull request with your project name and description.
 
 [IBM](https://shahirdaya.medium.com/first-impressions-of-redpanda-6dd0d860ecfd): First impressions of Redpanda by Shair Daya, IBM Distinguished Engineer and Chief Architect 
 [MongoDB](https://www.mongodb.com/blog/post/real-time-applications-made-simple-mongodb-redpanda): Real-time applications made simple with MongoDB and Redpanda 
-
 [Golang](https://golangexample.com/workshop-building-data-intensive-apps-with-singlestore-redpanda-and-golang/): Building data-intensive apps with SingleStore, Redpanda, and Golang
 
 [SingleStore](https://www.singlestore.com/blog/scaling-worldwide-parcel-logistics-with-singlestore-and-vectorized/): Scaling worldwide parcel logistics with SingleStore and Redpanda 
