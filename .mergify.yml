@@ -1,6 +1,7 @@
 queue_rules:
   - name: default
     allow_inplace_checks: true
+    draft_bot_account: vbotbuildovich
     conditions:
       - check-success=render
       - check-success=Lint go files
