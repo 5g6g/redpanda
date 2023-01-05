@@ -1,0 +1,26 @@
+commands_restrictions:
+  backport:
+    conditions:
+      - and:
+        - base=v22.3.x
+        - sender=@5g6g/devprod
+queue_rules:
+  - name: the only queue in town
+    conditions:
+      - and:
+        - check-success=render
+        - check-success=Lint go files
+        - check-success=Lint python files
+        - check-success=Lint shell scripts
+pull_request_rules:
+  - name: Automatic merge on approval
+    conditions:
+      - and:
+        - "#approved-reviews-by>=1"
+        - check-success=render
+        - check-success=Lint go files
+        - check-success=Lint python files
+        - check-success=Lint shell scripts
+    actions:
+      merge:
+        method: merge
