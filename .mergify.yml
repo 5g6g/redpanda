@@ -1,29 +1,28 @@
 commands_restrictions:
   backport:
     conditions:
-      - and:
-        - base=v22.3.x
-        - sender=@5g6g/devprod
+      - base=v22.3.x
+      - sender=@5g6g/devprod
 queue_rules:
   - name: default
     conditions:
-      - and:
-        - check-success=render
-        - check-success=Lint go files
-        - check-success=Lint python files
-        - check-success=Lint shell scripts
+      - check-success=render
+      - check-success=Lint go files
+      - check-success=Lint python files
+      - check-success=Lint shell scripts
+      - check-success=Run tests (linux, amd64)
 pull_request_rules:
   - name: merge using the merge queue
     conditions:
-      - and:
-        - "#approved-reviews-by>=1"
-        - check-success=render
-        - check-success=Lint go files
-        - check-success=Lint python files
-        - check-success=Lint shell scripts
+      - "#approved-reviews-by>=1"
+      - check-success=render
+      - check-success=Lint go files
+      - check-success=Lint python files
+      - check-success=Lint shell scripts
     actions:
       label:
         add:
           - queued
       queue:
         name: default
+        update_method: rebase
