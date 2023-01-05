@@ -46,7 +46,6 @@ Please bend a pull request with your project name and description.
 Materialize: [https://materialize.com/docs/third-party/redpanda](https://materialize.com/docs/third-party/redpanda/)
 
 kPow: [https://docs.kpow.io/config/redpanda](https://docs.kpow.io/config/redpanda)
-
 Conduktor: [https://docs.conduktor.io/kafka-cluster-connection/setting-up-a-connection-to-kafka/apache-kafka-wire-compatible-solutions](https://docs.conduktor.io/kafka-cluster-connection/setting-up-a-connection-to-kafka/apache-kafka-wire-compatible-solutions)
 
 Datadog: [https://docs.datadoghq.com/integrations/redpanda](https://docs.datadoghq.com/integrations/redpanda/)
