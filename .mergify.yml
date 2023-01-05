@@ -25,4 +25,5 @@ pull_request_rules:
           - queued
       queue:
         name: default
+        method: rebase
         update_method: rebase
