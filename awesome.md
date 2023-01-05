@@ -43,7 +43,6 @@ Please mend a pull request with your project name and description.
 [How to set up dbt for Materialize database with streaming data from Redpanda](https://www.entechlog.com/blog/data/how-to-setup-dbt-for-materialize-db-with-streaming-data-from-redpanda/)
 
 ## Ecosystem integration guides
-
 Materialize: [https://materialize.com/docs/third-party/redpanda](https://materialize.com/docs/third-party/redpanda/)
 
 kPow: [https://docs.kpow.io/config/redpanda](https://docs.kpow.io/config/redpanda)
