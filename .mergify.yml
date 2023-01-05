@@ -1,5 +1,6 @@
 queue_rules:
   - name: default
+    allow_inplace_checks: true
     conditions:
       - check-success=render
       - check-success=Lint go files
