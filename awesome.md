@@ -27,7 +27,6 @@ Please bend a pull request with your project name and description.
 ## Community articles 
 
 [Real-time streaming for mortals: How Redpanda and Materialize are making it a reality.](https://medium.com/event-driven-utopia/real-time-streaming-for-mortals-how-redpanda-and-materialize-making-it-a-reality-18ac0bdc6f43) 
-
 [Using Materialize and Redpanda to analyze Raspberry Pi temperature data](https://devdojo.com/bobbyiliev/using-materialize-and-redpanda-to-analyze-raspberry-pi-temperature-data)
 
 [Building Redpanda streaming and batch workers in Python](https://www.fadhil-blog.dev/blog/streaming-batch-worker/)
