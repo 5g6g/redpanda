@@ -5,7 +5,7 @@ commands_restrictions:
         - base=v22.3.x
         - sender=@5g6g/devprod
 queue_rules:
-  - name: the only queue in town
+  - name: default
     conditions:
       - and:
         - check-success=render
@@ -13,7 +13,7 @@ queue_rules:
         - check-success=Lint python files
         - check-success=Lint shell scripts
 pull_request_rules:
-  - name: Automatic merge on approval
+  - name: merge using the merge queue
     conditions:
       - and:
         - "#approved-reviews-by>=1"
@@ -22,5 +22,8 @@ pull_request_rules:
         - check-success=Lint python files
         - check-success=Lint shell scripts
     actions:
-      merge:
-        method: merge
+      label:
+        add:
+          - queued
+      queue:
+        name: default
