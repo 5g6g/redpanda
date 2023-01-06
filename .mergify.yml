@@ -3,12 +3,9 @@ commands_restrictions:
     conditions:
       - sender=@devprod
 queue_rules:
-  - name: default
+  - name: dev
     speculative_checks: 3
     batch_size: 4
     draft_bot_account: vbotbuildovich
     conditions:
-      - check-success=Lint go files
-      - check-success=Lint python files
-      - check-success=Lint shell scripts
-      - check-success=Run tests (linux, amd64)
+      - base=dev
