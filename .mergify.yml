@@ -1,7 +1,11 @@
-commands_restrictions:
-  queue:
+pull_request_rules:
+  - name: enqueue on label
     conditions:
-      - sender=@devprod
+      - base=dev
+      - label=merge-queue
+    actions:
+      queue:
+        name: dev
 queue_rules:
   - name: dev
     speculative_checks: 3
