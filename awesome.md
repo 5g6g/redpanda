@@ -1,5 +1,5 @@
 # Awesome Redpanda 🤯 😎 🤯
-Please bend a pull request with your project name and description. 
+asdf
 
 ## Partner blogs
 
