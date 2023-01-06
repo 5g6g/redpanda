@@ -1,3 +1,7 @@
+commands_restrictions:
+  queue:
+    conditions:
+      - sender=@devprod
 queue_rules:
   - name: default
     speculative_checks: 3
