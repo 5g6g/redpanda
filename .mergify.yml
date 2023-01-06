@@ -4,7 +4,6 @@ queue_rules:
     batch_size: 4
     draft_bot_account: vbotbuildovich
     conditions:
-      - check-success=render
       - check-success=Lint go files
       - check-success=Lint python files
       - check-success=Lint shell scripts
