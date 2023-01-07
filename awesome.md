@@ -40,7 +40,6 @@ Materialize: [https://materialize.com/docs/third-party/redpanda](https://materia
 kPow: [https://docs.kpow.io/config/redpanda](https://docs.kpow.io/config/redpanda)
 Conduktor: [https://docs.conduktor.io/kafka-cluster-connection/setting-up-a-connection-to-kafka/apache-kafka-wire-compatible-solutions](https://docs.conduktor.io/kafka-cluster-connection/setting-up-a-connection-to-kafka/apache-kafka-wire-compatible-solutions)
 Datadog: [https://docs.datadoghq.com/integrations/redpanda](https://docs.datadoghq.com/integrations/redpanda/)
-
 ## Projects using Redpanda 
 
 [Tremor-rs](https://github.com/tremor-rs/tremor-redpanda): An event-processing system designed at Wayfair to introduce a configurable traffic-shaping mechanism.
