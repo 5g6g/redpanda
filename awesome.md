@@ -1,6 +1,5 @@
 # Awesome Redpanda 🤯 😎 🤯
 asdf
-
 ## Partner blogs
 
 [IBM](https://shahirdaya.medium.com/first-impressions-of-redpanda-6dd0d860ecfd): First impressions of Redpanda by Shair Daya, IBM Distinguished Engineer and Chief Architect 
