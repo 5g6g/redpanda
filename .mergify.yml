@@ -13,3 +13,4 @@ queue_rules:
     draft_bot_account: vbotbuildovich
     conditions:
       - base=dev
+      - label=merge-queue
