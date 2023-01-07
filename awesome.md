@@ -7,7 +7,6 @@ asdf
 [SingleStore](https://www.singlestore.com/blog/scaling-worldwide-parcel-logistics-with-singlestore-and-vectorized/): Scaling worldwide parcel logistics with SingleStore and Redpanda 
 
 [Deephaven](https://deephaven.io/blog/2021/10/21/redpanda-docker/): Using Redpanda to stream Docker Stats in Deephaven
-
 [Materialize](https://materialize.com/taking-streaming-analytics-further-faster-with-redpanda-materialize/): Taking streaming analytics further faster with Materialize and Redpanda
 
 [Bytewax](https://www.bytewax.io/blog/anomaly-detection-bw-rpk/): Anomaly detection with Bytewax and Redpanda
