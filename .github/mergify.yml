@@ -6,7 +6,6 @@ pull_request_rules:
     actions:
       queue:
         name: dev
-        method: rebase
 queue_rules:
   - name: dev
     speculative_checks: 3
