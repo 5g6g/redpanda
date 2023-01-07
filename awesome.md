@@ -21,7 +21,6 @@ asdf
 
 [Timeplus](https://redpanda.com/blog/low-latency-streaming-analytics-timeplus-redpanda/): Realizing low latency streaming analytics with Timeplus and Redpanda
 [Ably](https://redpanda.com/blog/ably-redpanda-real-time-data-pipeline/): How to build a reliable and scalable real-time data pipeline with Ably and Redpanda
-
 ## Community articles 
 
 [Real-time streaming for mortals: How Redpanda and Materialize are making it a reality.](https://medium.com/event-driven-utopia/real-time-streaming-for-mortals-how-redpanda-and-materialize-making-it-a-reality-18ac0bdc6f43) 
