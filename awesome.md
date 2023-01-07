@@ -31,7 +31,6 @@ asdf
 [Why developers love Redpanda](https://whoisnnamdi.com/why-developers-love-redpanda/)
 
 [How to set up dbt for Materialize database with streaming data from Redpanda](https://www.entechlog.com/blog/data/how-to-setup-dbt-for-materialize-db-with-streaming-data-from-redpanda/)
-
 ## Ecosystem integration guides
 Materialize: [https://materialize.com/docs/third-party/redpanda](https://materialize.com/docs/third-party/redpanda/)
 
