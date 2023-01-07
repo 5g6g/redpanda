@@ -30,7 +30,6 @@ asdf
 [Building Redpanda streaming and batch workers in Python](https://www.fadhil-blog.dev/blog/streaming-batch-worker/)
 
 [Real-time analysis of cryptocurrency prices using dbt, Materialize, Redpanda, and Metabase](https://dev.to/nazliander/realtime-analysis-of-cryptocurrency-prices-using-dbt-materialize-redpanda-metabase-41n2)
-
 [Redpanda – a new cool kid on the event streaming block](https://thehonestcoder.com/redpanda-a-new-cool-kid-on-the-event-streaming-block/)
 
 [Why developers love Redpanda](https://whoisnnamdi.com/why-developers-love-redpanda/)
