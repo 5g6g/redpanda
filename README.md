@@ -20,7 +20,6 @@ you from the smallest projects to petabytes of data distributed across the globe
 # Community
 
 [Slack](https://redpanda.com/slack) is the main way the community interacts with one another in real time :) 
-
 [Github Discussion](https://github.com/redpanda-data/redpanda/discussions) is preferred for longer, async, thoughtful discussions
 
 [GitHub Issues](https://github.com/redpanda-data/redpanda/issues) is reserved only for actual issues. Please use the mailing list for discussions.
