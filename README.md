@@ -104,7 +104,6 @@ curl -1sLf \
 
 sudo apt-get install redpanda
 ```
-
 ## RC releases on Fedora/RedHat/Amazon Linux
 
 ```bash
