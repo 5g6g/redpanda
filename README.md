@@ -117,7 +117,6 @@ sudo yum install redpanda
 ```
 
 ## RC releases on Docker
-
 This is an example with the `v22.1.1-rc1` version prior to the 22.1.1 release.
 
 ```bash
